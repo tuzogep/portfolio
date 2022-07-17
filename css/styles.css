@@ -1,0 +1,79 @@
+/* font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif; */
+/* color palette: #F7FBFC, #D6E6F2, #B9D7EA, #769FCD   */
+
+h1 {
+  /* color: #769FCD; */
+  font-family: 'Lora', serif;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #F7FBFC;
+}
+
+section {
+  padding: 5% 20%;
+}
+
+.fa-solid {
+  color: #769FCD;
+  text-align: center;
+}
+/* Home Section */
+
+.home {
+  padding: 10% 20%;
+}
+.title {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.profile_div{
+  text-align: center;
+}
+.profile_photo {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+  /* padding-left: 25%; */
+  text-align: center;
+}
+
+/* BIO */
+.bio {
+  background-color: #B9D7EA;
+  padding: 10% 20%;
+}
+.bio_photo {
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 400px;
+  text-align: center;
+}
+
+/* MY SERVICES */
+
+
+/* PROJECTS */
+.projects {
+  background-color: #769FCD;
+}
+/* Contact */
+.contact {
+  background-color: #D6E6F2;
+}
+.contact_photo {
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+/* Footer */
+.footer {
+  background-color: #769FCD;
+  padding: 1% 1%;
+}
