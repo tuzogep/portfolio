@@ -5,10 +5,10 @@ font-family: 'Work Sans', sans-serif; */
 h1 {
   /* color: #769FCD; */
   font-family: 'Lora', serif;
+  letter-spacing: 3px;
 }
 body {
   font-family: 'Work Sans', sans-serif;
-  background-color: #F7FBFC;
 }
 
 section {
@@ -19,8 +19,24 @@ section {
   color: #769FCD;
   text-align: center;
 }
+
+.light_section {
+  background-color:  #F7FBFC;
+}
+
+.dark-section {
+  color: #F7FBFC;
+  background-color: #769FCD;
+}
+
+.navbar {
+  background-color: #F7FBFC;
+}
 /* Home Section */
 
+.display-7 {
+  letter-spacing: 4px;
+}
 .home {
   padding: 10% 20%;
 }
@@ -33,47 +49,48 @@ section {
   text-align: center;
 }
 .profile_photo {
+  display: flex;
   height: auto;
   width: auto;
   max-width: 300px;
   max-height: 300px;
-  /* padding-left: 25%; */
-  text-align: center;
 }
 
 /* BIO */
 .bio {
-  background-color: #B9D7EA;
   padding: 10% 20%;
+  color: #F7FBFC;
 }
 .bio_photo {
-  height: auto;
-  width: auto;
-  max-width: 400px;
-  max-height: 400px;
-  text-align: center;
+  display: flex;
+  width: 100%;
 }
 
 /* MY SERVICES */
 
 
 /* PROJECTS */
-.projects {
-  background-color: #769FCD;
+.collapse {
+  color: black;
+}
+
+
+.project_photos {
+  max-width: 100%;
+  height: auto;
+  max-height: 90%;
 }
 /* Contact */
-.contact {
-  background-color: #D6E6F2;
-}
 .contact_photo {
   height: auto;
   width: auto;
   max-width: 400px;
   max-height: 400px;
 }
-
+.btn-outline-primary:hover {
+  background-color: #769FCD;
+}
 /* Footer */
 .footer {
-  background-color: #769FCD;
   padding: 1% 1%;
 }

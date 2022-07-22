@@ -18,7 +18,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #FFFFFF;">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
 
 
   <!-- Home -->
-  <section id=home class=home>
+  <section id=home class="home light_section">
     <div class="row">
 
       <div class="col profile_div justify-content-center">
@@ -67,30 +67,34 @@
   </section>
 
   <!-- Bio -->
-  <section id=bio class="bio">
-    <div class="row">
-      <div class="col-sm">
-        <img src="clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="computer front" class="bio_photo rounded">
-      </div>
+  <section id="bio" class="bio dark-section">
+    <div class="container-fluid">
+      <div class="row gx-5">
+
+        <div class="col-lg-6">
+          <img src="clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="computer front" class="bio_photo rounded">
+        </div>
 
 
-      <div class="col-sm">
-        <h1 class="">Biography</h1>
-        <p class="">I graduated as a Mechanical Engineer at a top
-          Hungarian university and since than work in the automotive industry.<br>
-          However, I always wanted to learn coding. So now I code wherever
-          I see a chance for improvement and I love it!</p>
+        <div class="col-lg-6">
+          <h2 class="display-6">Biography</h2>
+          <p class="">I graduated as a Mechanical Engineer at a top
+            Hungarian university and since than work in the automotive industry.<br>
+            However, I always wanted to learn coding. So now I code wherever
+            I see a chance for improvement and I love it!</p>
+        </div>
       </div>
     </div>
 
 
+
   </section>
   <!-- Servies -->
-  <section id=services class="">
+  <section id=services class="light_section">
     <div class="services row justify-content-md-center">
       <h2 class="display-6">My offered services</h2>
 
-      <div class="row">
+      <div class="row gy-4">
         <div class="col-lg card mx-3">
           <i class="fa-solid fa-file-code fa-8x card-img-top py-2"></i>
           <div class="card-body">
@@ -110,7 +114,7 @@
       </div>
 
 
-      <div class="row py-4">
+      <div class="row  gy-4">
         <div class="col-lg card mx-3">
           <i class="fa-solid fa-terminal  fa-8x card-img-top py-2"></i>
           <div class="card-body">
@@ -137,64 +141,150 @@
   </section>
 
   <!-- Projects -->
-  <section id=projects class="projects">
-    <div class="">
-      <h2 class="display-6">My Projects</h2>
+  <section id=projects class="projects dark-section">
+    <div class="container-fluid">
+      <h2 class="display-6 title-on-blue">My Portfolio</h2>
       <div class="list-group">
-
         <p>
           <a class="btn btn-primary list-group-item list-group-item-action" data-bs-toggle="collapse" href="#a" role="button" aria-expanded="false" aria-controls="a">
             Morse Encoder App
           </a>
         </p>
+
         <div class="collapse" id="a">
           <div class="card card-body">
-            This app encodes your text, gives feedback if your text uses invalid characters and converts the code to sound.
+            <div class="container-fluid">
+              <div class="row gy-3">
+                <div class="col-lg-4">
+                  <img src="morse.png" alt="tic tac toe" , class="project_photos rounded mx-auto d-block">
+                </div>
+                <div class="col-lg-8">
+                  This app encodes your text, gives feedback if your text uses invalid characters and converts the code to sound.<br>
+                  <a href="https://github.com/tuzogep/morse_code_converter" class="link-primary">Link to the code</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
+        <p>
+          <a class="btn btn-primary list-group-item list-group-item-action" data-bs-toggle="collapse" href="#b" role="button" aria-expanded="false" aria-controls="b">
+            Tic Tac Toe Game
+          </a>
+        </p>
+
+        <div class="collapse" id="b">
+          <div class="card card-body">
+            <div class="container-fluid">
+              <div class="row gy-3">
+                <div class="col-lg-4">
+                  <img src="jon-tyson-eTjX8xc1in8-unsplash.jpg" alt="tic tac toe" , class="project_photos rounded mx-auto d-block">
+                </div>
+                <div class="col-lg-8">
+                  A text-based game. Creating it is a fun practise for basic Python knowledge, such as lists, loops, dictionaries, OOP. Figuring out how to evaluate the winner needed some logic skills.<br>
+                  <a href="https://github.com/tuzogep/tictactoe" class="link-primary">Link to the code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>
+          <a class="btn btn-primary list-group-item list-group-item-action" data-bs-toggle="collapse" href="#c" role="button" aria-expanded="false" aria-controls="c">
+            Image Watermark App
+          </a>
+        </p>
+
+        <div class="collapse" id="c">
+          <div class="card card-body">
+            <div class="container-fluid">
+              <div class="row gy-3">
+                <div class="col-lg-4">
+                  <img src="watermark.png" alt="tic tac toe" , class="project_photos rounded mx-auto d-block">
+                </div>
+                <div class="col-lg-8">
+                  This is a desktop app to create watermark on your images. It has a graphical user interface [GUI] (Tkinter).
+                  <br>
+                  There are plenty of settings for your watermark:<br>
+                  <ul>
+                    <li>text</li>
+                    <li>font</li>
+                    <li>size</li>
+                    <li>position</li>
+                    <li>opacity</li>
+                  </ul>
+                  <br>
+                  <a href="https://github.com/tuzogep/watermark" class="link-primary">Link to the code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- <a href="#" class="list-group-item list-group-item-action">A third link item</a> -->
 
+    </div>
     </div>
     </div>
 
   </section>
 
   <!-- Contact -->
-  <section id=contact class="contact">
+  <section id=contact class="contact light_section">
     <h2 class="display-6">Let's work together!</h2>
-    <div class="row">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <p class="lead">
+            I am open for freelance projects. Get in touch with me!
+          </p>
+          <p>
+            <a class="btn btn-outline-primary" href="mailto:sas.peter.hu@gmail.com">
+              <i class="fa-solid fa-at"></i>
+              Email
+            </a><br>
+          </p>
+          <p>
+            <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/péter-sas-13452352/">
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn
+            </a><br>
+          </p>
 
+          <p>
+            <a class="btn btn-outline-primary" href="https://github.com/tuzogep">
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </a><br>
+          </p>
+          <p>
+            <strong>
+              <i class="fa-solid fa-language"></i>
+              Languages:
+            </strong><br>
+            I speak English, German and Hungarian.<br><br>
+            <strong>
+              <i class="fa-solid fa-location-pin"></i>
+              Location:
+            </strong>
+            <br>
+            <a href="https://goo.gl/maps/DzX5f649fWYq6JFcA">Gyor, Hungary</a>
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <img src="firmbee-com-SpVHcbuKi6E-unsplash.jpg" alt="" class="rounded contact_photo">
+        </div>
 
-      <div class="col-lg">
-        <p class="lead">
-          I am open for freelance projects. Get in touch with me!
-        </p>
-        <p>
-          <a class="btn btn-light" href="mailto:sas.peter.hu@gmail.com">Email</a><br>
-        </p>
-        <p>
-          <strong>Phone:</strong><br>
-          +36 20 377 4666 <br><br>
-          <strong>Languages:</strong><br>
-          I speak English, German and Hungarian.<br><br>
-          <strong>Location:</strong> <br>Gyor, Hungary
-        </p>
       </div>
-      <div class="col-lg">
-        <img src="firmbee-com-SpVHcbuKi6E-unsplash.jpg" alt="" class="rounded contact_photo">
-      </div>
-
     </div>
+
 
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
-<footer class="footer">
+<footer class="footer dark-section">
   <p class="text-center">
-    Copyright Peter Sas @ 2022. All rights reserved.
+    Copyright © Peter Sas 2022. All rights reserved.
   </p>
 </footer>
 
